@@ -12,7 +12,8 @@ gem 'json'
 # Gems for the rspec testing
 group :development do
   gem 'rspec-rails', '2.6.1'
-  gem 'annotate', '~> 2.4.1.beta' 
+  gem 'annotate', '2.4.0'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
@@ -51,5 +52,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
-# gravatar
+# special gems for sample_app
 gem 'gravatar_image_tag', '1.0.0.pre2'
+# gem "will_paginate"
+gem "will_paginate", :git => "https://github.com/p7r/will_paginate.git", :branch => "rails3"
